@@ -1,0 +1,31 @@
+{
+  "name": "patternengine-node-react",
+  "description": "The React engine for Pattern Lab / Node",
+  "version": "0.1.0",
+  "main": "lib/engine_react.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Gulp",
+    "Javascript",
+    "React"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pattern-lab/patternengine-node-react.git"
+  },
+  "bugs": "https://github.com/pattern-lab/patternlab-node/issues",
+  "author": "Brian Muenzenmeyer & Geoffrey Pursell",
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "engines": {
+    "node": ">=4.4"
+  }
+}
