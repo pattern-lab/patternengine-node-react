@@ -4,9 +4,13 @@
   "version": "0.1.0",
   "main": "lib/engine_react.js",
   "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [
     "Pattern Lab",
     "Atomic Web Design",
