@@ -1,0 +1,18 @@
+<div id="reactContainer">
+  {{{htmlOutput}}}
+</div>
+
+<!-- pattern JSON (React props) -->
+<script id="patternJSON" type="application/json">
+  {{{json}}}
+</script>
+
+<!-- runtime React output -->
+<script>
+  {{{runtimeCode}}};
+
+  <!-- runtime rendering -->
+  var component = unknown.default;
+  var patternJSON = document.getElementById('patternJSON').textContent;
+  ReactDOM.render(React.createElement(component, JSON.parse(patternJSON)), document.getElementById('reactContainer'));
+</script>
