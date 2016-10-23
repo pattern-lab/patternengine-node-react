@@ -1,9 +1,9 @@
-<div id="reactContainer">
+<div class="reactPatternContainer" id="reactPatternContainer--{{{patternPartial}}}">
   {{{htmlOutput}}}
 </div>
 
 <!-- pattern JSON (React props) -->
-<script id="patternJSON" type="application/json">
+<script data-type="patternJSON" id="patternJSON--{{{patternPartial}}}" type="application/json">
   {{{json}}}
 </script>
 
@@ -13,6 +13,6 @@
 
   <!-- runtime rendering -->
   var component = unknown.default;
-  var patternJSON = document.getElementById('patternJSON').textContent;
-  ReactDOM.render(React.createElement(component, JSON.parse(patternJSON)), document.getElementById('reactContainer'));
+  var patternJSON = document.getElementById('patternJSON--{{{patternPartial}}}').textContent;
+  ReactDOM.render(React.createElement(component, JSON.parse(patternJSON)), document.getElementById('reactPatternContainer--{{{patternPartial}}}'));
 </script>
