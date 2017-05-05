@@ -9,12 +9,13 @@ We're still working out how React components will resolve and load the modules t
 
 - [x] [Includes](http://patternlab.io/docs/pattern-including.html)
 - [x] Data inheritance: This can be achieved by combining react `props` & `defaultProps`
-- [x] Lineage
 - [x] [Hidden Patterns](http://patternlab.io/docs/pattern-hiding.html)
 - [x] [Pseudo-Patterns](http://patternlab.io/docs/pattern-pseudo-patterns.html)
 - [x] [Pattern States](http://patternlab.io/docs/pattern-states.html#node)
 - [x] [Pattern Parameters](http://patternlab.io/docs/pattern-parameters.html): With react props
 - [x] [Style Modifiers](http://patternlab.io/docs/pattern-stylemodifier.html): With react props
+- [x] Lineage
+- [x] Incremental builds
 
 ## Usage
 * `*.jsx` files are detected as patterns.
