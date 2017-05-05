@@ -5,12 +5,11 @@ This is the **very preliminary** React engine for Patternlab/Node.
 You can author standalone React components that include only the main React module, which I know isn't much yet.
 We're still working out how React components will resolve and load the modules they depend on. We believe this is tricky, but doable.
 
-## Supported features
-Most of the things are working, except for lineage and Global data & data inheritance. **Working on that**
+## Supported Pattern Lab
 
 - [x] [Includes](http://patternlab.io/docs/pattern-including.html)
-- [ ] Global data & data inheritance
-- [ ] Lineage
+- [x] Data inheritance: This can be achieved by combining react `props` & `defaultProps`
+- [x] Lineage
 - [x] [Hidden Patterns](http://patternlab.io/docs/pattern-hiding.html)
 - [x] [Pseudo-Patterns](http://patternlab.io/docs/pattern-pseudo-patterns.html)
 - [x] [Pattern States](http://patternlab.io/docs/pattern-states.html#node)
