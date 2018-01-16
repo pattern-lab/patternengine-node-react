@@ -13,6 +13,9 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
+  "peerDependencies": {
+    "@pattern-lab/patternlab-node": ">2"
+  },
   "devDependencies": {},
   "keywords": [
     "Pattern Lab",
