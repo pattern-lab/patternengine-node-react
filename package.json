@@ -16,7 +16,9 @@
   "peerDependencies": {
     "@pattern-lab/patternlab-node": ">2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  },
   "keywords": [
     "Pattern Lab",
     "Atomic Web Design",
