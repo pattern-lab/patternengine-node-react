@@ -1,7 +1,7 @@
 {
   "name": "patternengine-node-react",
   "description": "The React engine for Pattern Lab / Node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/engine_react.js",
   "dependencies": {
     "babel-core": "^6.17.0",
@@ -36,6 +36,6 @@
     "test": "grunt travis --verbose"
   },
   "engines": {
-    "node": ">=4.4"
+    "node": ">=6"
   }
 }
