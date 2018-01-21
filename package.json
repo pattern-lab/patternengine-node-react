@@ -20,7 +20,10 @@
     "@pattern-lab/patternlab-node": ">2"
   },
   "devDependencies": {
-    "eslint": "^4.15.0"
+    "eslint": "^4.15.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "prettier": "^1.10.2"
   },
   "keywords": [
     "Pattern Lab",
