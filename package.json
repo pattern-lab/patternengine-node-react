@@ -12,8 +12,9 @@
     "cheerio": "^0.22.0",
     "hogan": "^1.0.2",
     "js-beautify": "^1.6.4",
+    "memory-fs": "^0.4.1",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2",
+    "react-dom": "^15.6.2",
     "webpack": "^3.10.0"
   },
   "peerDependencies": {
