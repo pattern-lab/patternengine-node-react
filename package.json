@@ -15,6 +15,7 @@
     "memory-fs": "^0.4.1",
     "react": "^15.3.2",
     "react-dom": "^15.6.2",
+    "tmp-promise": "^1.0.4",
     "webpack": "^3.10.0"
   },
   "peerDependencies": {
