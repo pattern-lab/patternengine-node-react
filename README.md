@@ -1,3 +1,5 @@
+[📢 Archived in favor of https://github.com/pattern-lab/patternlab-node](https://github.com/pattern-lab/patternlab-node)
+
 # The React engine for Pattern Lab / Node
 This is the **very preliminary barely worth mentioning** React engine for Patternlab/Node. It's more or less a proof of concept.
 
